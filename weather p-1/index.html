@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <meta property="og:title" content="Weather App 🌤️" />
+    <meta property="og:description" content="A weather app built with HTML, CSS, and JavaScript. Search cities and view real-time weather updates!" />
+    <meta property="og:image" content="https://ronnyhamilton.github.io/Web-development/weather%20p-1/preview.png" />
+    <meta property="og:url" content="https://ronnyhamilton.github.io/Web-development/weather%20p-1/index.html" />
+    <meta property="og:type" content="website" />
+</head>
+
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="Enter City Name" spellcheck="false">
+            <button id="searchicon"><img src="search-outline-svgrepo-com.svg"></button>
+        </div>
+        <div class="weather">
+            <img src="" alt="">
+            <h1 class="temp"></h1>
+            <h2 class="city"></h2>
+        </div>
+        <div class="humwind">
+            <div class="humidity">
+                <img src="hot.png" alt="">
+                <div class="humiditytext">
+                    <h2 class="humiditypercent"></h2>
+                    <p>Humidity</p>
+                </div>
+            </div>
+            <div class="windspeed">
+                <img src="wind(1).png" alt="" class="src">
+                <div class="windspeedtext">
+                    <h2 class="windpercent"></h2>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

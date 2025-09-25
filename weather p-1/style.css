@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: CircularSpotifyText-Bold;
+}
+
+h1,
+h2 {
+    color: #ffffff;
+}
+
+body {
+    background-color: #2525255e;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    width: 90%;
+    max-width: 470px;
+    text-align: center;
+    margin: 3vw auto 0;
+    background-image: linear-gradient(135deg, #3B2667 10%, #BC78EC 100%);
+    border: 2px solid black;
+    border-radius: 20px;
+    border: 0;
+    text-align: center;
+
+}
+
+.search {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    gap: 2vw;
+    align-items: center;
+}
+
+.search input {
+    height: 50px;
+    padding: 2px;
+    padding-right: 2vw;
+    border-radius: 30px;
+    padding-left: 20px;
+    background-color: #ebfffc;
+}
+
+#searchicon {
+    width: 55px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ebfffc;
+    border: 1px solid;
+    cursor: pointer;
+    text-align: center;
+}
+
+#searchicon img {
+    width: 20px;
+    height: 20px;
+}
+
+.humwind {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5vw;
+    padding-bottom: 20px;
+}
+
+.weather {
+    width: 200px;
+}
+
+.weather img {
+    padding-bottom: 40px;
+    width: 10vw;
+}
+
+.humidity {
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+
+.humidity img {
+    filter: invert();
+    transform: rotate(90deg);
+    width: 3vw;
+}
+
+.humiditytext {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+p {
+    color: white;
+}
+
+.windspeed img {
+    position: relative;
+    filter: invert();
+    width: 4vw;
+}
+
+.windspeed {
+    display: flex;
+    align-items: center;
+    gap: .5vw;
+}
+/* ...existing code... */
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    .card {
+        width: 98%;
+        max-width: 100%;
+        padding: 10px 0;
+        border-radius: 12px;
+    }
+
+    .search {
+        flex-direction: column;
+        padding: 20px 10px;
+        gap: 10px;
+    }
+
+    .search input {
+        width: 70vw;
+        height: 40px;
+        font-size: 1rem;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    #searchicon {
+        width: 170px;
+        border-radius: 30px;
+        height: 40px;
+    }
+
+    .weather {
+        width: 100%;
+    }
+
+    .weather img {
+        width: 30vw;
+        padding-bottom: 20px;
+    }
+
+    .humwind {
+        flex-direction: column;
+        gap: 15px;
+        padding-bottom: 10px;
+    }
+
+    .humidity img,
+    .windspeed img {
+        width: 8vw;
+        min-width: 28px;
+    }
+
+    h1, h2 {
+        font-size: 1.3rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+}
+
+.weather{
+    display: none;
+}
+.humwind{
+    display: none;
+}
