@@ -38,11 +38,9 @@ fetch(`https://api.openweathermap.org/data/2.5/weather?q=california&appid=fe8a05
             img.src= isDay ? `icons/clouds_day.svg`: `icons/clouds_night.svg`;
         }
         if( weatherinfottexth1.innerHTML=="Rain"){
-            img.src= isDay ? `icons/rainy_day.svg`: `icons/rainy_night.svg`;
+            img.src= isDay ? `icons/thunder.svg`: `icons/night_rain.svg`;
         }
-        if( weatherinfottexth1.innerHTML=="Rain"){
-            img.src= isDay ? `icons/rainy_day.svg`: `icons/rainy_night.svg`;
-        }
+       
          if( weatherinfottexth1.innerHTML=="Clear"){
             img.src= isDay ? `icons/sun.svg`: `icons/moon.svg`;
         }
