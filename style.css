@@ -1,4 +1,3 @@
-/* From Uiverse.io by alexruix */
 * {
     font-family: Montserrat;
 
@@ -91,12 +90,14 @@ body {
     align-items: center;
 
 }
-.searchbox{
+
+.searchbox {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 20px;
 }
+
 #search {
     border-radius: 30px;
     width: 240px;
@@ -105,7 +106,8 @@ body {
     background-color: #383838;
     border: 0px;
 }
-#btn{
+
+#btn {
     border-radius: 50px;
     width: 60px;
     background-color: #383838;
@@ -114,7 +116,8 @@ body {
     border: 0px;
 
 }
-#btn img{
+
+#btn img {
     display: flex;
     align-items: center;
     width: 20px;
@@ -122,10 +125,12 @@ body {
     padding: 0px 15px;
     cursor: pointer;
 }
-#btn:hover{
+
+#btn:hover {
     background-color: #868686;
     transition: all ease-in .5s;
 }
+
 #search::placeholder,
 input {
     font-size: 15px;
@@ -196,15 +201,19 @@ input {
     align-items: center;
     gap: 50px;
 }
+
 .weather-icon-box {
-    width: 160px;   /* same space always */
+    width: 160px;
+    /* same space always */
     height: 160px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .weathernow img {
-    width: 180px;   /* uniform icon size */
+    width: 180px;
+    /* uniform icon size */
     height: auto;
     margin: 0;
     position: static !important;
@@ -216,60 +225,45 @@ input {
     margin-top: -13px;
 }
 
-@media only screen and (max-width:944px) {
+@media only screen and (max-width:1080px) {
     .main {
         flex-direction: column;
     }
-    .card1{
+
+    .card1 {
         width: 600px;
     }
-    .card{
+
+    .card {
         width: 600px;
-        height: 764px;
+        height: 964px;
     }
-    .card h1{
+
+    .card h1 {
         font-size: 30px;
     }
-    .weathernow p{
+
+    .weathernow p {
         font-size: 10px;
         margin-top: -2px;
     }
-}
-@media only screen and (max-width:644px) {
-    .main {
-        flex-direction: column;
-    }
-    .card1{
-        width: 400px;
-    }
-    .card{
-        width: 400px;
-        height: 764px;
-    }
-    .card img{
-        width: 80px;
-    }
-    .card h1{
-        font-size: 20px;
-    }
-    .weatherinfottext{
-        gap: 2px;
-    }
-    .weathernow p{
-        font-size: 10px;
-        margin-top: -2px;
+
+    .detail {
+        width: 700px;
     }
 }
-.details{
+
+.details {
     color: rgb(255, 255, 255);
     display: flex;
     flex-wrap: wrap;
-    margin-left: 20px;
+    margin-left: 1s0px;
 }
-.detail{
+
+.detail {
     display: flex;
     gap: 10px;
-    width: 330px;
+    width: 350px;
     height: 120px;
     align-items: center;
     margin: 20px;
@@ -278,21 +272,149 @@ input {
     border: 2px solid #9e6f00;
 }
 
-.detail:hover{
+.detail:hover {
     cursor: pointer;
     background-color: #fdc66173;
-    transition:background-color ease-in .5s;
+    transition: background-color ease-in .5s;
 }
-.detail img{
+
+.detail img {
     width: 40px;
     height: 40px;
     filter: invert(1);
     margin: 0px 30px;
 }
-.detail p{
+
+.detail p {
     font-size: 15px;
 }
-.detail h2{
-  margin-top: -15px;
-  color: #ffa600;
+
+.detail h2 {
+    margin-top: -15px;
+    color: #ffa600;
+}
+
+
+
+
+
+@media screen and (max-width:1270px) {
+    .detail {
+        width: 280px;
+    }.detail p {
+  font-size: 13px;
+}
+}
+
+@media screen and (max-width:1078px) {
+    .detail {
+        width: 548px;
+    }
+
+    #search {
+        width: 200px;
+    }
+
+    #btn img {
+        width: 15px;
+    }
+
+    #btn {
+        width: 55px;
+    }
+}
+@media only screen and (max-width:644px) {
+    .main {
+        flex-direction: column;
+    }
+
+    #mainimg {
+        width: 150px;
+    }
+
+    .card1 {
+        width: 400px;
+    }
+
+    .card {
+        width: 400px;
+        height: 894px;
+    }
+
+    .card img {
+        width: 35px;
+    }
+
+    .card h1 {
+        font-size: 20px;
+    }
+
+    .weatherinfottext h1 {
+        font-size: 30px;
+    }
+
+    .weathernow p {
+        font-size: 15px;
+        margin-top: -2px;
+    }
+
+    .weathernow {
+        gap: 6px;
+    }
+
+    .detail {
+        width: 350px;
+    }
+}
+@media screen and (max-width:470px) {
+    .card {
+        width: 350px;
+    }
+
+    .detail {
+        width: 300px;
+        height: 90px;
+    }
+
+    .detail p {
+        font-size: 12px;
+    }
+
+    .detail h2 {
+        font-size: 22px;
+    }
+
+    .weathernow p {
+        font-size: 10px;
+    }
+
+    .card1 {
+        height: 400px;
+        width: 350px;
+    }
+
+    .recents {
+        width: 310px;
+    }
+
+    .temp {
+        margin-left: 70px;
+    }
+
+    .card h1 {
+        font-size: 20px;
+    }
+
+    #mainimg {
+        width: 100px;
+    }
+
+    .weathernow {
+        gap: 1px;
+    }
+
+    #maintitle {
+        font-size: 30px;
+    }
+
 }
