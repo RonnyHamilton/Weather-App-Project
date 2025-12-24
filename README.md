@@ -18,7 +18,7 @@ You can try it live here: https://ronnyhamilton.github.io/Weather-App-Project/
 - HTML  
 - CSS  
 - JavaScript  
-- (Optionally: mention which weather API you used — e.g. OpenWeatherMap, if applicable)  
+-API used OpenWeatherMap
 
 ## 🚀 How to Use / Run Locally
 
