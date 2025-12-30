@@ -94,8 +94,9 @@ document.querySelector("#btn").addEventListener("click", () => {
                         <div class="recentsdetails">
                             <h3>${jsonfile.weather[0].main}</h3>
                             <p>${jsonfile.name}</p>
+                            <div class="temp" style="margin-top:-5px  top:0px;">Temp: ${Math.round(eval(jsonfile.main.temp-273.15))}°C</div>
                         </div>
-                        <div class="temp">${Math.round(eval(jsonfile.main.temp-273.15))}°C</div>
+                        
                     </div>`;
         leftbottom.insertAdjacentHTML("beforeend",x);
     }); 
