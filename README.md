@@ -4,7 +4,7 @@ A simple web-based weather app built with HTML, CSS, and JavaScript — fetches 
 
 ## 🔧 Demo
 
-You can try it live here: https://ronnyhamilton.github.io/Weather-App-Project/  
+You can try it live here:  https://ronnyhamilton.github.io/StromBuddy/
 
 ## 📄 Features
 
