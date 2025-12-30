@@ -1,4 +1,4 @@
-# Weather App Project
+# STROMBUDDY
 
 A simple web-based weather app built with HTML, CSS, and JavaScript — fetches and displays weather information for searched cities, using a public weather API.
 
