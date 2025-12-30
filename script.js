@@ -73,8 +73,11 @@ document.querySelector("#btn").addEventListener("click", () => {
         let localSunset = sunset + timezone;
 
         let isDay = localTime >= localSunrise && localTime < localSunset;
-        if( weatherinfottexth1.innerHTML=="Mist" || weatherinfottexth1.innerHTML=="Haze" ){
-            img.src=`icons/mist_day1.png`;
+        if( weatherinfottexth1.innerHTML=="Mist" || weatherinfottexth1.innerHTML=="Snow"){
+            img.src=`icons/6z_snowflake_blue-removebg-preview.png`;
+        }
+        if( weatherinfottexth1.innerHTML=="Haze" ){
+             img.src=`icons/mist_day1.png`;
         }
         if( weatherinfottexth1.innerHTML=="Clouds"){
             img.src= isDay ? `icons/clouds_day.svg`: `icons/clouds_night.svg`;
@@ -87,6 +90,8 @@ document.querySelector("#btn").addEventListener("click", () => {
         }
          if( weatherinfottexth1.innerHTML=="Clear"){
             img.src= isDay ? `icons/sun.svg`: `icons/moon.svg`;
+        }  if( weatherinfottexth1.innerHTML=="Smoke"){
+            img.src=`icons/7700737-Photoroom.png`;
         }
         console.log(isDay ? "DAY" : "NIGHT");
         const x=`<div class="recents">
