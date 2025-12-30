@@ -19,9 +19,3 @@ You can try it live here: https://ronnyhamilton.github.io/Weather-App-Project/
 - CSS  
 - JavaScript  
 -API used OpenWeatherMap
-
-## 🚀 How to Use / Run Locally
-
-1. Clone or download the project repository to your local machine.  
-   ```bash
-   git clone <your-repo-url>
