@@ -1,10 +1,10 @@
-# Weather App Project
+# STROMBUDDY
 
 A simple web-based weather app built with HTML, CSS, and JavaScript — fetches and displays weather information for searched cities, using a public weather API.
 
 ## 🔧 Demo
 
-You can try it live here: https://ronnyhamilton.github.io/Weather-App-Project/  
+You can try it live here:  https://ronnyhamilton.github.io/StromBuddy/
 
 ## 📄 Features
 
@@ -19,9 +19,3 @@ You can try it live here: https://ronnyhamilton.github.io/Weather-App-Project/
 - CSS  
 - JavaScript  
 -API used OpenWeatherMap
-
-## 🚀 How to Use / Run Locally
-
-1. Clone or download the project repository to your local machine.  
-   ```bash
-   git clone <your-repo-url>
